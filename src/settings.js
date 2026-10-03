@@ -29,6 +29,8 @@
     // Output resolution of the light canvas in % (lower = cheaper, blurrier).
     resolution: { type: 'num', default: 100, min: 25, max: 200, step: 25 },
     barDetection: { type: 'bool', default: true },
+    // Opt in to excluding only the homepage; all other pages retain their behavior.
+    excludeHome: { type: 'bool', default: false },
     darkTheme: { type: 'bool', default: true },
     // Opacity of translucent card/button backgrounds when the dark theme is forced.
     cardOpacity: { type: 'num', default: 8, min: 0, max: 60, step: 1 },

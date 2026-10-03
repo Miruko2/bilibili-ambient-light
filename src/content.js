@@ -152,7 +152,8 @@
 
     update() {
       const s = this.settings;
-      const pageActive = Boolean(s.enabled && this.source && document.body);
+      const pageAllowed = !s.excludeHome || location.pathname !== '/';
+      const pageActive = Boolean(s.enabled && pageAllowed && this.source && document.body);
       const screen = this.player?.getAttribute('data-screen') ?? '';
       const lightActive = pageActive && INLINE_SCREENS.has(screen) && !document.fullscreenElement;
 

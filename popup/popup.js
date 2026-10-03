@@ -28,6 +28,7 @@
     {
       title: '页面',
       controls: [
+        { key: 'excludeHome', label: '排除主页' },
         { key: 'darkTheme', label: '强制深色主题' },
         { key: 'cardOpacity', label: '卡片背景不透明度', format: percent },
         { key: 'headerTransparent', label: '顶栏半透明磨砂' },

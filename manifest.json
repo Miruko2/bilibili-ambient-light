@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "B站氛围光 · Ambient Light for Bilibili",
   "short_name": "B站氛围光",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "在 B 站看视频时，让视频画面的色彩溢出到整个网页，营造沉浸式氛围光效果。",
   "minimum_chrome_version": "116",
   "icons": {
